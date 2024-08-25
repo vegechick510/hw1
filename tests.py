@@ -1,1 +1,2 @@
-print('using python test workflow')
+def test_passing():
+    assert (1, 2, 3) == (1, 2, 3)
