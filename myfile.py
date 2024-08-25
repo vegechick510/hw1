@@ -6,13 +6,5 @@ def my_pow(a, b):
     c = 1
     for i in range(b):
         c = c * a
-    # print("Output of a^b: {}^{} = {}".format(a, b, c))
     return c
-
-
-print("This is a test file!")
-c = my_pow(2, 3)
-assert c == pow(2, 3)
-
-c = my_pow(0, 0)
-assert c == 0
+my_pow(2, "3")
