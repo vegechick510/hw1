@@ -7,4 +7,7 @@ def my_pow(a, b):
     for i in range(b):
         c = c * a
     return c
-my_pow(2, "3")
+
+print("This is a test file!")
+c = my_pow(2, 3)
+assert c == pow(2, 3)
