@@ -17,23 +17,7 @@ jobs:
 
       run: |
         pip install pytest pytest-cov
-<<<<<<< HEAD
-<<<<<<< HEAD
         pytest --cov=. pass.py
-=======
-      run: 
-=======
-      run: |
->>>>>>> 4cedc07 (change actions):.github/workflows/test.yaml
-        pip install pytest pytest-cov
-        pytest --cov .
->>>>>>> d6aed47 (change actions):.github/workflows/test.yaml
-=======
-        pytest --cov=. fail.py myfile.py pass.py
->>>>>>> 86a1654 (change actions & files)
-=======
-        pytest --cov=. pass.py
->>>>>>> 160e9d5 (change actions & files)
     - uses: codecov/codecov-action@v4
       with:
         fail_ci_if_error: true # optional (default = false)
