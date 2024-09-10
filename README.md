@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![codecov](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1)
 =======
 [![Coverage](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1?branch=test)
@@ -26,3 +27,6 @@
 =======
 [![Coverage](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1?branch=test)
 >>>>>>> 7f8d749 (change badge)
+=======
+[![codecov](https://codecov.io/github/vegechick510/hw1/branch/test/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1)
+>>>>>>> 980582e (change badge)
