@@ -1,6 +1,11 @@
 name: API workflow
 
-on: [push, pull_request]
+on:
+  # Triggers the workflow on push or pull request events but only for the "test" branch
+  push:
+    branches: [ "test" ]
+  pull_request:
+    branches: [ "test" ]
 
 jobs:
   build:
