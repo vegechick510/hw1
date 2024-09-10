@@ -14,6 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Run tests and collect coverage
+<<<<<<< HEAD
 <<<<<<< HEAD:.github/workflows/pycov.yaml
 <<<<<<< HEAD:.github/workflows/pycov.yaml
 
@@ -36,6 +37,12 @@ jobs:
 =======
         pytest --cov=. pass.py
 >>>>>>> 160e9d5 (change actions & files)
+=======
+
+      run: |
+        pip install pytest pytest-cov
+        pytest --cov=. pass.py
+>>>>>>> origin/test
     - uses: codecov/codecov-action@v4
       with:
         fail_ci_if_error: true # optional (default = false)
