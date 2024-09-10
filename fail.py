@@ -9,15 +9,5 @@ def my_pow(a, b):
         for i in range(b):
             c = c * a
         return c
-<<<<<<< HEAD
-<<<<<<< HEAD
 c = my_pow("2", 3)
 assert c == pow(2, 3)
-=======
-print("This is a test file!")
-assert pow(1, 2)==my_pow(1, "2")
->>>>>>> 86a1654 (change actions & files)
-=======
-c = my_pow("2", 3)
-assert c == pow(2, 3)
->>>>>>> origin/test
