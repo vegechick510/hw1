@@ -8,8 +8,13 @@ def my_pow(a, b):
 def test():
     c = my_pow(2, 3)
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert c == pow(2, 3)
 test()
 =======
     assert c == pow(2, 3)
 >>>>>>> 84641c6 (change pytest)
+=======
+    assert c == pow(2, 3)
+test()
+>>>>>>> 86a1654 (change actions & files)
