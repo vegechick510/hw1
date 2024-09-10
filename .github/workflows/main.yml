@@ -1,8 +1,11 @@
 name: Run tests and upload coverage
 
-on: 
-  push
-
+on:
+  # Triggers the workflow on push or pull request events but only for the "test" branch
+  push:
+    branches: [ "test" ]
+  pull_request:
+    branches: [ "test" ]
 jobs:
   test:
     name: Run tests and collect coverage
