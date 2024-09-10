@@ -7,6 +7,7 @@
 [![.github/workflows/pytest.yml](https://github.com/vegechick510/hw1/actions/workflows/pytest.yml/badge.svg?branch=test)](https://github.com/vegechick510/hw1/actions/workflows/pytest.yml?branch=test)  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![codecov](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1)
 =======
 [![Coverage](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1?branch=test)
@@ -22,3 +23,6 @@
 [![.github/workflows/pytest.yml](https://github.com/vegechick510/hw1/actions/workflows/pytest.yml/badge.svg?branch=test)](https://github.com/vegechick510/hw1/actions/workflows/pytest.yml?branch=test)  
 [![codecov](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1)
 >>>>>>> 3d73455 (change pytest.yaml)
+=======
+[![Coverage](https://codecov.io/github/vegechick510/hw1/graph/badge.svg?token=1H8RIM3OQG)](https://codecov.io/github/vegechick510/hw1?branch=test)
+>>>>>>> 7f8d749 (change badge)
