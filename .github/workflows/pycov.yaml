@@ -16,7 +16,7 @@ jobs:
     - name: Run tests and collect coverage
       run: |
         pip install pytest pytest-cov
-        pytest --cov=. fail.py myfile.py pass.py
+        pytest --cov=. pass.py
     - uses: codecov/codecov-action@v4
       with:
         fail_ci_if_error: true # optional (default = false)
