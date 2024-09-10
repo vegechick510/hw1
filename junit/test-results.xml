@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="2" failures="0" skipped="0" tests="2" time="0.158" timestamp="2024-09-10T03:45:05.082485+00:00" hostname="codespaces-17bd76"><testcase classname="" name="fail" time="0.000"><error message="collection failure">fail.py:13: in &lt;module&gt;
+    test()
+fail.py:12: in test
+    my_pow(2, "3")
+fail.py:6: in my_pow
+    for i in range(b):
+E   TypeError: 'str' object cannot be interpreted as an integer</error><error message="collection failure">fail.py:13: in &lt;module&gt;
+    test()
+fail.py:12: in test
+    my_pow(2, "3")
+fail.py:6: in my_pow
+    for i in range(b):
+E   TypeError: 'str' object cannot be interpreted as an integer</error></testcase></testsuite></testsuites>
