@@ -8,4 +8,8 @@ def my_pow(a, b):
 def test():
     c = my_pow(2, 3)
     assert c == pow(2, 3)
+<<<<<<< HEAD
 test()
+=======
+test()
+>>>>>>> 86a1654 (change actions & files)
