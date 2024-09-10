@@ -15,12 +15,16 @@ jobs:
     - uses: actions/checkout@v4
     - name: Run tests and collect coverage
 <<<<<<< HEAD:.github/workflows/pycov.yaml
+<<<<<<< HEAD:.github/workflows/pycov.yaml
 
       run: |
         pip install pytest pytest-cov
         pytest --cov=. pass.py
 =======
       run: 
+=======
+      run: |
+>>>>>>> 4cedc07 (change actions):.github/workflows/test.yaml
         pip install pytest pytest-cov
         pytest --cov .
 >>>>>>> d6aed47 (change actions):.github/workflows/test.yaml
