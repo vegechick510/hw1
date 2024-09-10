@@ -10,5 +10,5 @@ def my_pow(a, b):
             c = c * a
     return c
 def test():
-    assert my_pow(2, 3) == pow(2, 3)
+    assert my_pow(2, 3) == pow(2, "3")
 test()

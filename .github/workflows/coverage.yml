@@ -1,6 +1,11 @@
 name: API workflow
 
-on: [push, pull_request]
+on:
+  # Triggers the workflow on push or pull request events but only for the "test" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -9,7 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Run tests and collect coverage
-      run: pytest --cov .
+      run: |
+        pip install pytest pytest-cov
+        pytest --cov=. pass.py
     - uses: codecov/codecov-action@v4
       with:
         fail_ci_if_error: true # optional (default = false)
